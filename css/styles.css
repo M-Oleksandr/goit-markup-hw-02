@@ -70,6 +70,11 @@ ul {
         color: var(--accent-color);
 }
 
+.link-current {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 .contacts {
     font-weight: 500;
     font-size: 14px;
@@ -227,4 +232,49 @@ ul {
 .address-link-mail:pointer,
 .address-link-tel:pointer {
     cursor: pointer;
+}
+
+/* Portfolio */
+
+.portfolio-title {
+    display: none;
+}
+.portfolio-filter-button {
+    background: var(--section-color);
+    color: var(--primary-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+
+}
+.portfolio-filter-button:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.portfolio-filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Projects */
+
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+}
+.project-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color);
 }
