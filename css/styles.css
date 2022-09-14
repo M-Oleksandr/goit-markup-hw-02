@@ -18,15 +18,20 @@ font-family: 'Roboto', sans-serif; */
         --primary-white-color:#FFFFFF;
         --secondary-black-color: #2F303A;
         --section-color: #F5F4FA;
+        --color-address-footer: rgba(255, 255, 255, 0.6);
     }
 
 body {
-        background-color: var(--primary-white-color);
-        color: var(--primary-text-color);
-
         font-family: Roboto, sans-serif;
+        font-size: 14px;
+        line-height: 1,71;
         letter-spacing: 0.03em;
-    }
+        
+        background-color: var(--primary-white-color);
+        color: var(--title-text-color);
+}
+
+        
 
 /* Header */
 
@@ -51,11 +56,9 @@ ul {
 .nav {
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 1.14;
+        line-height: 1.14;
         letter-spacing: 0.02em;
-    }
-
+}
 .link-nav {
         color: var(--primary-text-color);
         text-decoration: none;
@@ -82,7 +85,7 @@ ul {
     letter-spacing: 0.02em;
     }
 .contacts-link {
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
     text-decoration: none;
     }
 .contacts-link:hover {
@@ -114,9 +117,11 @@ ul {
 .button-order {
     background: var(--accent-color);
     color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
     cursor: pointer;
-    text-align: center;
-    font-family: inherit;
 }
 
 /* Features */
@@ -128,18 +133,13 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: var(--primary-text-color);
 }
 .features-description {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: var(--secondary-black-color);
 }
 
 /* What we do */
@@ -164,25 +164,19 @@ ul {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
-
+   
     color: var(--primary-text-color);
 }
 .our-team-employee {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-
+   
     color: var(--primary-text-color);
 }
 .our-team-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
 
     color:var(--title-text-color);
 }
@@ -194,11 +188,9 @@ ul {
 }
 
 .footer {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 
-    letter-spacing: 0.03em;
     background: var(--secondary-black-color);
 }
 .address-link {
@@ -218,7 +210,7 @@ ul {
 .address-link-mail,
 .address-link-tel {
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-address-footer);
     text-decoration: none;
 }
 .address-link-mail:hover,
@@ -271,10 +263,8 @@ ul {
     color: var(--primary-text-color);
 }
 .project-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 
     color: var(--title-text-color);
 }
