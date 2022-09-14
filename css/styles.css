@@ -19,12 +19,13 @@ font-family: 'Roboto', sans-serif; */
         --secondary-black-color: #2F303A;
         --section-color: #F5F4FA;
         --color-address-footer: rgba(255, 255, 255, 0.6);
+        --secondary-accent-color: #188CE8;
     }
 
 body {
         font-family: Roboto, sans-serif;
         font-size: 14px;
-        line-height: 1,71;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         
         background-color: var(--primary-white-color);
@@ -122,6 +123,12 @@ ul {
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+.button-order:hover {
+    background: var(--secondary-accent-color);
+}
+.button-order:focus {
+    background: var(--secondary-accent-color);
+}
 
 /* Features */
 
@@ -136,10 +143,9 @@ ul {
 
     color: var(--primary-text-color);
 }
-.features-description {
-    font-size: 14px;
-    line-height: 1.71;
-}
+/* .features-description {
+    
+} */
 
 /* What we do */
 
@@ -187,9 +193,6 @@ ul {
 }
 
 .footer {
-    font-size: 14px;
-    line-height: 1.71;
-
     background: var(--secondary-black-color);
 }
 .address-link {
@@ -237,7 +240,6 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
 
